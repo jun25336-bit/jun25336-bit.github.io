@@ -11,7 +11,6 @@ I am an M.S. student in Electrical and Computer Engineering at the University of
 | `index.html` | The whole site: one static page with inline CSS. No build step, no dependencies. |
 | `teaser.mp4` | 7-second muted loop shown next to the TouchSafeBench paper, cut from the opening of the [paper video](https://jun25336-bit.github.io/TouchSafeBench/). |
 | `teaser.jpg` | Still frame of that clip, shown before the video plays and for visitors who prefer reduced motion. |
-| `avatar.svg` | Cartoon portrait shown in the sidebar. |
 
 ## Updating the site
 
@@ -28,7 +27,7 @@ Common edits:
 
 - **News**: add an `<li>` to the `<ul class="news">` list, newest first.
 - **Publication**: copy an existing `<div class="paper-box">` block and change the title, authors, links, badge, and teaser.
-- **Profile picture**: the sidebar shows `avatar.svg`. To use a photo instead, add `photo.jpg` to the repo and change the avatar's `src="avatar.svg"` to `src="photo.jpg"`.
+- **Profile photo**: add `photo.jpg` to the repo and change `<div class="avatar">JW</div>` to `<div class="avatar"><img src="photo.jpg" alt="Jun Wang"></div>`.
 
 ## Related
 
