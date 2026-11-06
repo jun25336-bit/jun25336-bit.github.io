@@ -31,6 +31,7 @@ ul.news { padding-left:20px; } ul.news li { margin:4px 0; }
 .paper-box-text p { margin:0 0 4px; }
 .paper-box-text .t { font-weight:700; }
 .note { color:var(--muted); font-size:14px; }
+h2 .note { font-weight:400; margin-left:4px; }
 ul.plain { padding-left:20px; } ul.plain li { margin:6px 0; }
 footer { color:var(--muted); font-size:13px; margin-top:40px; }
 @media (max-width:800px) { .layout { grid-template-columns:1fr; gap:24px; } .sidebar { position:static; } .paper-box { flex-direction:column; } .paper-box-image { width:100%; } .masthead { gap:14px; } }
@@ -57,7 +58,7 @@ footer { color:var(--muted); font-size:13px; margin-top:40px; }
   <p>I am currently seeking <strong>Ph.D. opportunities for Fall 2027</strong>. Feel free to reach out if you are interested in collaborating.</p>
   <h2 id="news">🔥 News</h2>
   <ul class="news"><li><em>Oct. 2026</em>: &nbsp;Received a CoRL 2026 Travel Support Award. See you in Austin!</li><li><em>Sept. 2026</em>: &nbsp;Our paper on collision grounding in vision-language models was accepted to CoRL 2026.</li><li><em>Aug. 2025</em>: &nbsp;Started my M.S. at the University of Michigan.</li></ul>
-  <h2 id="pubs">📝 Publications</h2>
+  <h2 id="pubs">📝 Publications <span class="note">(* indicates equal contribution)</span></h2>
   <div class="paper-box">
     <div class="paper-box-image">
       <!-- Teaser: 7 s muted loop from the opening of the TouchSafeBench paper video; teaser.jpg is the poster / reduced-motion still -->
@@ -66,7 +67,7 @@ footer { color:var(--muted); font-size:13px; margin-top:40px; }
     </div>
     <div class="paper-box-text">
       <p class="t"><a href="https://arxiv.org/abs/2605.31196">Probing Collision Grounding in Vision-Language Models for Safe Human–Robot Collaboration</a></p>
-      <p><strong>Jun Wang</strong>*, Xiaohao Xu*, Xiaonan Huang (*Equal contribution)</p>
+      <p><strong>Jun Wang</strong>*, Xiaohao Xu*, Xiaonan Huang</p>
       <p><a href="https://jun25336-bit.github.io/TouchSafeBench/"><strong>Project page</strong></a> | <a href="https://arxiv.org/abs/2605.31196">arXiv</a></p>
       <ul class="plain" style="margin:6px 0 0"><li>We introduce TouchSafeBench to test whether vision-language models can tell when a robot is in, or about to make, physical contact. Even the best model stays below 50% Macro-F1, and depth input alone does not turn into reliable contact judgments.</li></ul>
     </div>
