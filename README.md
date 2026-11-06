@@ -2,7 +2,7 @@
 
 Source of my academic homepage, served by GitHub Pages at **https://jun25336-bit.github.io/**.
 
-I am an M.S. student in Electrical and Computer Engineering at the University of Michigan, working on embodied AI, robot learning, and AI agents.
+I am an M.S. student in Electrical and Computer Engineering at the University of Michigan, working on embodied AI safety, foundation models for robotics, and autonomous driving.
 
 ## Files
 
